@@ -1,0 +1,26 @@
+name: analog_crossover
+channels:
+  - defaults
+dependencies:
+  - pip
+  - pyflakes
+  - python=3.9
+  - scons
+  - flake8
+  - numpy
+  - scipy
+  - matplotlib
+  - ipython
+  - ipykernel
+  - ipywidgets
+  - jupyterlab
+  - ipympl
+  - netCDF4
+  - libsndfile
+  - sympy
+  - pip:
+    - -e ./utils/
+    - sounddevice
+    - pyfar
+    - lcapy
+prefix: ./env/analog_crossover
